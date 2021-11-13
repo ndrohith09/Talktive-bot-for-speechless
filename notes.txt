@@ -1,0 +1,4 @@
+"scripts": {
+    "start": "budo main.js:dist/build.js --live --host localhost",
+    "build": "browserify main.js -o dist/build.js"
+  },
